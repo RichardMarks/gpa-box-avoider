@@ -535,7 +535,7 @@ update (deltaTime) {
 
 render (renderingContext) {
   game.player.render(renderingContext)
-  game.scoreTime.render(renderingContext)
+  game.scoreTimer.render(renderingContext)
 }
 ```
 
@@ -550,7 +550,7 @@ Let's fix this and add an evil red enemy box to our game!
 We are going to do the same thing as we have been doing, create an object, write some update and render code, plug it into the game. I will not repeat saying where the code should go after this point, it should be pretty obvious if you have been paying attention. Here is a reference for you use if you forget.
 
 > ----
-> #### Q. Where do put my code?!
+> #### Q. Where do I put my code?!
 > #### A.
 > 
 > + Write new object constructions in the `init` method of the `game` > object
